@@ -17,8 +17,9 @@
   }
 
   .htmlScreen iframe {
-    width: 1024px;
-    height: 670px;
+    width: 600px;
+    height: 500px;
     border: none;
+    background-color: black;
   }
 }

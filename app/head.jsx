@@ -1,8 +1,8 @@
-const title = 'React Three Next Starter'
-const url = 'https://react-three-next.vercel.app/'
-const description = 'The easiest and fastest way to create a 3D website using React Three Fiber and NextJS'
-const author = 'Author'
-const twitter = '@pmndrs'
+const title = 'Threejs Folio Wrapper'
+const url = 'https://your-portfolio-url.com' // ← update to match PORTFOLIO_URL in Experience.jsx
+const description = 'A wrapper project around my threejs folio'
+const author = 'Joel Kram' // ← update with your name
+const twitter = '@yourhandle' // ← update with your Twitter handle
 
 export default function Head() {
   return (

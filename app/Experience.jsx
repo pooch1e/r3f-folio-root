@@ -3,7 +3,9 @@ import { Environment } from '@react-three/drei'
 import { PresentationControls, ContactShadows, Html } from '@react-three/drei'
 
 export default function Experience() {
-  const { scene, nodes } = useGLTF('/models/computer/zombie_computer.glb')
+  const { scene, nodes } = useGLTF('/models/computer/computer_nodeNamed.glb')
+  console.log(nodes)
+  // replace 'screen' node with video texture
 
   return (
     <>
@@ -22,4 +24,4 @@ export default function Experience() {
   )
 }
 
-useGLTF.preload('/models/computer/zombie_computer.glb')
+useGLTF.preload('/models/computer/computer_nodeNamed.glb')
